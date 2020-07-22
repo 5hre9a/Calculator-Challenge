@@ -12,11 +12,12 @@ app.get("/", function(req, res){
 
 app.post("/", function(req, res){
 
-    var num1 = req.body.num1;
-    var num2 = req.body.num2;
+    var num1 = Number(req.body.n1);
+    var num2 = Number(req.body.n2);
 
     var result = num1 + num2;
-    res.send("the answer is" + result);
+
+        res.send("the answer is" + result);
 });
 
 app.listen(3000, function(){
