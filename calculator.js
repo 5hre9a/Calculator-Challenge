@@ -17,7 +17,7 @@ app.post("/", function(req, res){
 
     var result = num1 + num2;
 
-        res.send("the answer is" + result);
+        res.send("the answer is = " + result);
 });
 
 app.listen(3000, function(){
