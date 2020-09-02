@@ -1,4 +1,4 @@
-# calculator challenge
+# calculator app
 here are my solutions to the completion of a calculator setup 
 
 Q)the backend challenges (express.js)
